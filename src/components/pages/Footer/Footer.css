@@ -1,0 +1,69 @@
+.footer {
+    padding-bottom: 0px;
+}
+.footer .socialMedia {
+    display: contents;
+    text-align: center;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+.footer .footer-social-links {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.footer-social-links .fb:hover {
+    transform: scale(1.2);
+}
+.footer-social-links .tt:hover {
+    transform: scale(1.2);
+}
+.footer-social-links .insta:hover {
+    transform: scale(1.2);
+}
+.footer-social-links .yt:hover {
+    transform: scale(1.2);
+}
+
+.pong a {
+    color: #aaaaaa;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 50px 40px;
+}
+.pong a:hover {
+    color: #f8f8f8;
+}
+.HaydenTrans {
+    padding-top: 20px;
+}
+.HaydenTrans a {
+    color: #aaaaaa;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 50px 40px;
+    flex-direction: column;
+}
+.HaydenTrans a:hover {
+    color: #f8f8f8;
+}
+.copyrightText {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    text-align: center;
+}
+
+.copyrightText p {
+    color: #f8f8f8;
+}
+
+.copyrightText span {
+    color: #aaaaaa;
+    font-weight: 700;
+    text-decoration: none;
+}

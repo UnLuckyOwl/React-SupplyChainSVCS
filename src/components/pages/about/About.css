@@ -1,0 +1,74 @@
+.about-banner {
+    position: relative;
+    width: 100%;
+    min-height: 60vh; /*100 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../media/PVS.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-banner::after {
+    content: '';
+}
+
+.about-banner .we-content {
+    /* max-width: 900px; */
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    background-color: rgba(24, 24, 24, 0.8);
+    border-radius: 5px;
+}
+
+.about-banner .we-content h1 {
+    color: #aaaaaa;
+    font-size: 1.75rem;
+    padding: 5px 0;
+}
+
+.about-banner .we-content p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f8f8f8;
+}
+
+@media screen and (max-width: 420px) {
+    .about-banner {
+        background-position: left;
+    }
+    .we-content {
+        width: 100%;
+        left: 0 !important;
+        padding: 15px !important;
+    }
+    .about-banner .we-content h1 {
+        font-size: 1.5rem;
+    }
+    .about-banner .we-content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .about-banner {
+        background-position: left;
+    }
+    .we-content {
+        width: 100%;
+        left: 0 !important;
+        padding: 15px !important;
+    }
+    .about-banner .we-content h1 {
+        font-size: 1.5rem;
+    }
+    .about-banner .we-content p {
+        font-size: 14px;
+    }
+}
